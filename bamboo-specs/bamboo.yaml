@@ -9,7 +9,6 @@ stages:
     - Job 1
 Job 1:
   tasks:
-    description: deploty to openshift
   - ssh:
       host: 20.127.63.130
       command: "helm repo add helm-wo-secret-helm https://venkatesan.jfrog.io/artifactory/api/helm/helm-wo-secret-helm --username venkatesan06.mvm@gmail.com --password AP6t1z5AmesHu5Y8xZUEJjBj7o3\r\nhelm repo update\r\noc create secret docker-registry app-secret --namespace=spring --docker-server=dmVua2F0ZXNhbi5qZnJvZy5pbw== --docker-username=dmVua2F0ZXNhbjA2Lm12bUBnbWFpbC5jb20= --docker-password=VmVua2F0ZXNhbjA2MDRA\r\nhelm install --namespace=spring --set image.tag=5.2 app helm-wo-secret-helm/my-chart --version=0.1.0"
