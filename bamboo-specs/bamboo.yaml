@@ -10,7 +10,6 @@ stages:
 Job 1:
   tasks:
     description: deploty to openshift
-  tasks:
 # Checkout Task for default repository will be added implicitly during Specs import
   - ssh:
       host: 20.127.63.130
