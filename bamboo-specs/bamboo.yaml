@@ -16,6 +16,6 @@ Job 1:
         username: azureuser
         shared-credentials: openshift-ssh
 variables:
-  jfrog_password: VmVua2F0ZXNhbjA2MDRA
+  jfrog_password: AP6t1z5AmesHu5Y8xZUEJjBj7o3
   jfrog_user: venkatesan06.mvm@gmail.com
 
